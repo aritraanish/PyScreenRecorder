@@ -13,7 +13,6 @@ def record():
     recording = []
     
     original_screen = d.screenshot()
-    #screen = np.array(original_screen, dtype='uint8').reshape((original_screen.size[1], original_screen.size[0], 3))
     Fps = FPS().start()
     
     while True:
